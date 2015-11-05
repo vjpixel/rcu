@@ -120,7 +120,6 @@ msgstr ""
 msgid "<strong>Módulo 3 (M3): </strong>responsável pela comunicação via rede de telefonia celular, capaz de transmitir os dados por SMS para um servidor do Rede InfoAmazonia. Como estratégia auxiliar de acesso aos dados, o M2 também possui espaço para cartão de memória SD."
 msgstr ""
 
-#: public/views/home.html:1
 #: public/views/sensor.html:1
 msgid "A Amazônia detém a maior quantidade de água doce do Brasil, 73% de toda vazão hídrica."
 msgstr ""
@@ -147,10 +146,6 @@ msgstr ""
 
 #: public/views/pages/mae-dagua.html:1
 msgid "Alguns conceitos:"
-msgstr ""
-
-#: public/views/home.html:1
-msgid "Amazônia Brasileira"
 msgstr ""
 
 #: public/views/pages/mae-dagua.html:1
@@ -421,7 +416,6 @@ msgstr ""
 msgid "Manutenção: As ponteiras dos sensores devem ser limpas periodicamente para evitar acumulo de resíduos que podem afetar as leituras."
 msgstr ""
 
-#: public/views/home.html:1
 #: public/views/sensor.html:1
 msgid "Mas o acesso ao saneamento nos 771 munícipios da região está entre as piores do país."
 msgstr ""
@@ -459,7 +453,6 @@ msgstr ""
 msgid "Média dos últimos 30 dias"
 msgstr ""
 
-#: public/views/home.html:1
 #: public/views/sensor.html:1
 msgid "Na Amazônia Legal, 60% das residências são atendidas pela rede geral de água. A média nacional é de 82,7%."
 msgstr ""
@@ -555,10 +548,6 @@ msgstr ""
 msgid "Qualidade da água e doenças em <strong>{{city}}</strong>"
 msgstr ""
 
-#: public/views/home.html:1
-msgid "Qualidade da água e doenças na Amazônia"
-msgstr ""
-
 #: public/views/sensor.html:1
 msgid "Receba atualizações deste sensor"
 msgstr ""
@@ -638,6 +627,10 @@ msgstr ""
 msgid "Sobre o projeto"
 msgstr ""
 
+#: public/views/home.html:1
+msgid "São Paulo"
+msgstr ""
+
 #: public/views/admin/users-edit.html:1
 #: public/views/admin/users.html:1
 msgid "Telefone"
@@ -689,7 +682,7 @@ msgid "conectados via"
 msgstr ""
 
 #: public/views/home.html:1
-msgid "em cidades da"
+msgid "em"
 msgstr ""
 
 #: public/views/home.html:1
@@ -701,7 +694,7 @@ msgid "próximo"
 msgstr ""
 
 #: public/views/home.html:1
-msgid "qualidade da água"
+msgid "qualidade da água e ar"
 msgstr ""
 
 #: public/views/home.html:1
