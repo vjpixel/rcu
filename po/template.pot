@@ -105,7 +105,7 @@ msgid "<a href=\"http://www.icfj.org/news/infoamazonia-finalist-google-social-im
 msgstr ""
 
 #: public/views/index.html:1
-msgid "<span>Rede</span>InfoAmazonia"
+msgid "<span>Rede</span>Código Urbano"
 msgstr ""
 
 #: public/views/pages/mae-dagua.html:1
