@@ -55,14 +55,32 @@ var parameters = {
     "defaultUnit": "C",
     "qualityWeight": 0.10
   },
-  "ambient_temperature": {
-    "_id": "ambient_temperature",
+  "equipment_temperature": {
+    "_id": "equipment_temperature",
     "name": {
-      "en": "Ambient temperature",
-      "pt": "Temperatura ambiente"
+      "en": "Equipment temperature",
+      "pt": "Temperatura do equipamento"
     },
     "abbreviations": ["Ta"],
     "defaultUnit": "C"
+  },
+  "PM10": {
+    "_id": "PM10",
+    "name": {
+      "en": "Particulate matter 10 µm or less",
+      "pt": "Material particulado até 10 µm"
+    },
+    "abbreviations": ["PM 10"],
+    "defaultUnit": "µg/m3"
+  },
+  "PM25": {
+    "_id": "PM25",
+    "name": {
+      "en": "Particulate matter 2.5 µm or less",
+      "pt": "Material particulado até 2,5 µm"
+    },
+    "abbreviations": ["PM 2.5"],
+    "defaultUnit": "µg/m3"
   }
 };
 
