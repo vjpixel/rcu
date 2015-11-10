@@ -2,23 +2,39 @@
 A platform of water quality sensors made with open source technology.
 
 # Getting started
-Clone this repository locally and run:
 
-```
-npm install
-```
+Install the following dependencies:
 
-For production environments, create a `.env` file based on `.env.example`.
+- [Node.js](nodejs.org)
+- [MongoDB](mongodb.org)
 
-Compile the client application:
+Clone this repository locally and create a `.env` based on example:
 
-```
-grunt build
-```
+    cp .env.example .env
 
-Run `npm start`.
+Install dependency modules:
 
-# API Documentation
+    npm install
+
+Run:
+
+    npm start
+
+## Development
+
+Install `grunt-cli`:
+
+    sudo npm install -g grunt-cli
+
+If you made changes to the client, recompile it:
+
+    grunt build
+
+A "watch" task is also available:
+
+    grunt watch
+
+# API endpoints
 
 All routes should be prefixed with 'api/v1'.
 
