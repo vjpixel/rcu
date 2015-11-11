@@ -90,7 +90,7 @@ angular.module('rede')
 
 		$scope.map = {
 			options: {
-				maxZoom: 15,
+				maxZoom: 18,
 				scrollWheelZoom: false,
 				zoomControl: $state.current.name == 'home' ? true : false,
 				attributionControl: $state.current.name == 'home' ? true : false,
