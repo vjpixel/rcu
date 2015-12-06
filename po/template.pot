@@ -57,7 +57,7 @@ msgid "30 de abril de 2014"
 msgstr ""
 
 #: public/views/pages/monitoring.html:1
-msgid "73% da água doce do Brasil está na Amazônia, no entanto o índice de água tratada nessa região é aproximadamente 22% inferior ao resto do Brasil. Ou seja, embora a água doce seja abundante na Amazônia, a população ainda enfrenta dificuldades para ter acesso a água potável. A má qualidade da água para consumo humano é decorrente tanto da contaminação dos rios pela decomposição natural de matéria orgânica de origem animal ou vegetal e provêm dos esgotos domésticos e de diversos processos industriais ou agropecuários. Contrariamente aos resíduos orgânicos, a matéria inorgânica que vêm de indústrias, não se decompõe naturalmente e podem matar micro-organismos, plantas e animais aquáticos, e tornar a água imprópria para o consumo ou para o banho."
+msgid "73% da água doce do Brasil está na Amazônia. No entanto, o índice de água tratada nessa região é aproximadamente 22% inferior ao resto do Brasil. Ou seja, embora a água doce seja abundante na Amazônia, a população ainda enfrenta dificuldades para ter acesso a água potável. A má qualidade da água para consumo humano é decorrente tanto da contaminação dos rios pela decomposição natural de matéria orgânica de origem animal ou vegetal e provêm dos esgotos domésticos e de diversos processos industriais ou agropecuários. Contrariamente aos resíduos orgânicos, a matéria inorgânica que vem de indústrias não se decompõe naturalmente, pode matar micro-organismos, plantas e animais aquáticos, e tornar a água imprópria para o consumo ou para o banho."
 msgstr ""
 
 #: public/views/pages/press.html:1
@@ -113,7 +113,7 @@ msgid "<a href=\"http://www.icfj.org/news/infoamazonia-finalist-google-social-im
 msgstr ""
 
 #: public/views/index.html:1
-msgid "<span>Rede</span>Código Urbano"
+msgid "<span>Rede</span>InfoAmazonia"
 msgstr ""
 
 #: public/views/pages/mae-dagua.html:1
@@ -172,8 +172,6 @@ msgstr ""
 msgid "<strong>Temperatura: </strong>A temperatura é um elemento que influencia características físicas e químicas da água, como sua densidade e capacidade de reter oxigênio dissolvido."
 msgstr ""
 
-#: public/views/home.html:1
->>>>>>> upstream/master
 #: public/views/sensor.html:1
 msgid "A Amazônia detém a maior quantidade de água doce do Brasil, 73% de toda vazão hídrica."
 msgstr ""
@@ -612,8 +610,6 @@ msgstr ""
 msgid "Mínima"
 msgstr ""
 
-#: public/views/home.html:1
->>>>>>> upstream/master
 #: public/views/sensor.html:1
 msgid "Na Amazônia Legal, 60% das residências são atendidas pela rede geral de água. A média nacional é de 82,7%."
 msgstr ""
@@ -891,15 +887,15 @@ msgid "Sobre o projeto"
 msgstr ""
 
 #: public/views/home.html:1
-<<<<<<< HEAD
 msgid "São Paulo"
-=======
+msgstr ""
+
+#: public/views/home.html:1
 msgid "São enviadas atualizações de hora em hora via rede 2G com as leituras dos dados para o site do Rede InfoAmazonia"
 msgstr ""
 
 #: public/views/home.html:1
 msgid "São monitorados parâmetros que ajudam a indicar a presença de contaminantes químicos e biológicos, para que possamos alertar a população"
->>>>>>> upstream/master
 msgstr ""
 
 #: public/views/admin/users-edit.html:1

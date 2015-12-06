@@ -74,25 +74,13 @@ app
 			url: '/sobre/',
 			templateUrl: '/views/pages/about.html'
 		})
-		.state('press', {
-			url: '/imprensa/',
-			templateUrl: '/views/pages/press.html'
-		})
-		.state('maedagua', {
-			url: '/mae-dagua/',
-			templateUrl: '/views/pages/mae-dagua.html'
-		})
 		.state('monitoring', {
 			url: '/monitoring/',
 			templateUrl: '/views/pages/monitoring.html'
 		})
-		.state('faq', {
-			url: '/faq/',
-			templateUrl: '/views/pages/faq.html'
-		})
-		.state('network', {
-			url: '/rede/',
-			templateUrl: '/views/pages/network.html'
+		.state('equipment', {
+			url: '/equipamento/',
+			templateUrl: '/views/pages/equipment.html'
 		})
 		.state('login', {
 			url: '/login/',
