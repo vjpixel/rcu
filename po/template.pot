@@ -186,10 +186,6 @@ msgstr ""
 msgid "<strong>Temperatura: </strong>A temperatura é um elemento que influencia características físicas e químicas da água, como sua densidade e capacidade de reter oxigênio dissolvido."
 msgstr ""
 
-#: public/views/sensor.html:1
-msgid "A Amazônia detém a maior quantidade de água doce do Brasil, 73% de toda vazão hídrica."
-msgstr ""
-
 #: public/views/sensor/report.html:1
 msgid "A capacidade da água de conduzir eletricidade indica minerais dissolvidos ou clorídeos na água. Minerais dissolvidos podem comprometer a utilização da água para uso doméstico."
 msgstr ""
@@ -358,7 +354,7 @@ msgstr ""
 msgid "Confirmar assinatura"
 msgstr ""
 
-#: src/js/controllers.js:373
+#: src/js/controllers.js:364
 msgid "Customizado"
 msgstr ""
 
@@ -565,11 +561,7 @@ msgstr ""
 msgid "Longitude: {{sensor.geometry.coordinates[0]}}"
 msgstr ""
 
-#: public/views/sensor.html:1
-msgid "Mas o acesso ao saneamento nos 771 munícipios da região está entre as piores do país."
-msgstr ""
-
-#: src/js/controllers.js:811
+#: src/js/controllers.js:802
 msgid "Medição removida."
 msgstr ""
 
@@ -616,10 +608,6 @@ msgstr ""
 
 #: src/js/directives.js:342
 msgid "Mínima"
-msgstr ""
-
-#: public/views/sensor.html:1
-msgid "Na Amazônia Legal, 60% das residências são atendidas pela rede geral de água. A média nacional é de 82,7%."
 msgstr ""
 
 #: public/views/pages/network.html:1
@@ -782,10 +770,6 @@ msgid "Página anterior"
 msgstr ""
 
 #: public/views/sensor.html:1
-msgid "Qualidade da água e doenças em <strong>{{city}}</strong>"
-msgstr ""
-
-#: public/views/sensor.html:1
 msgid "Receba atualizações deste sensor"
 msgstr ""
 
@@ -838,19 +822,19 @@ msgstr ""
 msgid "Senha atualizada"
 msgstr ""
 
-#: src/js/controllers.js:762
+#: src/js/controllers.js:753
 msgid "Senhas não coincidem"
 msgstr ""
 
-#: src/js/controllers.js:684
+#: src/js/controllers.js:675
 msgid "Sensor atualizado."
 msgstr ""
 
-#: src/js/controllers.js:689
+#: src/js/controllers.js:680
 msgid "Sensor criado."
 msgstr ""
 
-#: src/js/controllers.js:655
+#: src/js/controllers.js:646
 msgid "Sensor removido."
 msgstr ""
 
@@ -938,15 +922,15 @@ msgstr ""
 msgid "Unidade de medida"
 msgstr ""
 
-#: src/js/controllers.js:767
+#: src/js/controllers.js:758
 msgid "Usuário atualizado."
 msgstr ""
 
-#: src/js/controllers.js:772
+#: src/js/controllers.js:763
 msgid "Usuário criado."
 msgstr ""
 
-#: src/js/controllers.js:735
+#: src/js/controllers.js:726
 msgid "Usuário removido."
 msgstr ""
 
@@ -983,7 +967,7 @@ msgstr ""
 msgid "Você ainda não assinou nenhum sensor!"
 msgstr ""
 
-#: src/js/controllers.js:503
+#: src/js/controllers.js:494
 msgid "Você deixou de assinar este sensor!"
 msgstr ""
 
@@ -991,29 +975,29 @@ msgstr ""
 msgid "Você deve inserir uma senha"
 msgstr ""
 
-#: src/js/controllers.js:489
+#: src/js/controllers.js:480
 msgid "Você está assinando este sensor!"
 msgstr ""
 
-#: src/js/controllers.js:494
+#: src/js/controllers.js:485
 msgid "Você já assina este sensor!"
 msgstr ""
 
-#: src/js/controllers.js:696
+#: src/js/controllers.js:687
 msgid "Você tem certeza que deseja enviar \"\" para os assinantes de ?"
 msgstr ""
 
-#: src/js/controllers.js:780
+#: src/js/controllers.js:771
 msgid "Você tem certeza que deseja enviar \"\" para para ?"
 msgstr ""
 
-#: src/js/controllers.js:617
+#: src/js/controllers.js:608
 msgid "Você tem certeza que deseja enviar \"\" para todos os assinantes?"
 msgstr ""
 
-#: src/js/controllers.js:653
-#: src/js/controllers.js:733
-#: src/js/controllers.js:809
+#: src/js/controllers.js:644
+#: src/js/controllers.js:724
+#: src/js/controllers.js:800
 msgid "Você tem certeza?"
 msgstr ""
 
@@ -1078,7 +1062,7 @@ msgstr ""
 msgid "É possível definir um nível do ORP necessário para assegurar desinfecção efetiva. Esse valor deve ser determinado caso a caso; valores universais não são recomendados. Mais pesquisa e avaliação do ORP como uma técnica operacional de monitoramento é altamente recomendada pela Organização Mundial de Saúde."
 msgstr ""
 
-#: src/js/controllers.js:365
+#: src/js/controllers.js:356
 msgid "Últimas 24 horas"
 msgstr ""
 
@@ -1087,6 +1071,6 @@ msgstr ""
 msgid "Últimas medições"
 msgstr ""
 
-#: src/js/controllers.js:369
+#: src/js/controllers.js:360
 msgid "Últimos 30 dias"
 msgstr ""

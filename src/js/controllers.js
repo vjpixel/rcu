@@ -285,15 +285,6 @@ angular.module('rede')
 				$scope.paramLang = 'en';
 		});
 
-		if(Address.data.address) {
-			$scope.city = Address.data.address.city;
-			if($scope.city == 'Santarém') {
-				$scope.visaguasUrl = $sce.trustAsResourceUrl('http://visaguas.infoamazonia.org/uf/15/cidade/150680/?theme=rede&lock=true&hide_title=true');
-			} else if($scope.city == 'Belterra') {
-				$scope.visaguasUrl = $sce.trustAsResourceUrl('http://visaguas.infoamazonia.org/uf/15/cidade/150145/?theme=rede&lock=true&hide_title=true');
-			}
-		}
-
 		var sCount = 1;
 
 		if($scope.sensor.geometry.coordinates.length && $scope.sensor.geometry.coordinates[0]) {
