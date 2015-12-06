@@ -82,9 +82,13 @@ app
 			url: '/mae-dagua/',
 			templateUrl: '/views/pages/mae-dagua.html'
 		})
-		.state('aboutData', {
-			url: '/sobre-dados/',
-			templateUrl: '/views/pages/about-data.html'
+		.state('monitoring', {
+			url: '/monitoring/',
+			templateUrl: '/views/pages/monitoring.html'
+		})
+		.state('faq', {
+			url: '/faq/',
+			templateUrl: '/views/pages/faq.html'
 		})
 		.state('network', {
 			url: '/rede/',
@@ -337,14 +341,24 @@ require('./directives');
 require('./controllers');
 
 angular.module('rede').run([
+	'$rootScope',
 	'gettextCatalog',
-	function (gettextCatalog) {
+	function ($rootScope, gettextCatalog) {
+
 		var userLang = navigator.language || navigator.userLanguage;
-		console.log(userLang);
 		if(userLang == 'pt-BR' || userLang == 'pt' || userLang == 'pt_BR' || userLang == 'pt_PT' || userLang == 'pt-PT')
 			gettextCatalog.setCurrentLanguage('pt_BR');
 		else
 			gettextCatalog.setCurrentLanguage('en');
+
+		$rootScope.$watch(function() {
+			return gettextCatalog.getCurrentLanguage();
+		}, function(lang) {
+			if(lang == 'pt_BR')
+				moment.locale('pt-br');
+			else
+				moment.locale('en');
+		});
 	}
 ]);
 

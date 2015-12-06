@@ -117,12 +117,22 @@ module.exports = function(grunt) {
 						expand: true
 					}
 				]
+			},
+			ngDialog: {
+				files: [
+					{
+						cwd: 'node_modules/ng-dialog/css',
+						src: ['**'],
+						dest: 'public/lib/ng-dialog',
+						expand: true
+					}
+				]
 			}
 		},
 		nggettext_extract: {
 			pot: {
 				files: {
-					'po/template.pot': ['public/views/**/*.html']
+					'po/template.pot': ['public/views/**/*.html', 'src/js/**/*.js', '!src/js/translations.js']
 				}
 			}
 		},
@@ -149,15 +159,15 @@ module.exports = function(grunt) {
 				tasks: ['jade', 'nggettext_extract']
 			},
 			scripts: {
-				files: 'src/js/**/*.js',
-				tasks: ['browserify']
+				files: ['src/js/**/*.js', '!src/js/translations.js'],
+				tasks: ['browserify', 'nggettext_extract']
 			},
 			copy: {
 				files: ['src/**', '!src/**/*.less', '!src/**/*.jade', '!src/**/*.js'],
 				tasks: ['copy']
 			},
 			translations: {
-				files: 'po/**/*',
+				files: 'po/**/*.po',
 				tasks: ['nggettext_compile', 'browserify']
 			}
 		}
