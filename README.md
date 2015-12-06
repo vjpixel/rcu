@@ -1,5 +1,10 @@
-# Rede InfoAmazonia
-A platform of water quality sensors made with open source technology.
+# Rede Código Urbano
+
+Rede Código Urbano is an environmental monitoring initiative using equipment to perform the reading in real-time of parameters that help indicate the quality of water and air.
+
+The code in this repository is the platform that receives, stores, and presents the data from the equipment as historical chart.
+
+The project was developed during a residency at Red Bull Basement in Sao Paulo.
 
 # Getting started
 
