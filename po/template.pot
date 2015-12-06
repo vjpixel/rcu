@@ -113,75 +113,61 @@ msgid "<a href=\"http://www.icfj.org/news/infoamazonia-finalist-google-social-im
 msgstr ""
 
 #: public/views/index.html:1
-msgid "<span>Rede</span>Código Urbano"
+msgid "<span>Rede</span>InfoAmazonia"
 msgstr ""
 
-#: public/views/pages/equipments.html:1
 #: public/views/pages/mae-dagua.html:1
 msgid "<strong>Aplicação: </strong>o equipamento é utilizado para monitoramento da qualidade da água em caixas d´água, cisternas, reservatórios, corpos de água superficial com baixa vazão."
 msgstr ""
 
-#: public/views/pages/equipments.html:1
 #: public/views/pages/mae-dagua.html:1
 msgid "<strong>Calibração: </strong>A calibração dos sensores deve ser feita a cada três meses."
 msgstr ""
 
-#: public/views/pages/equipments.html:1
 #: public/views/pages/mae-dagua.html:1
 msgid "<strong>Condutividade elétrica: </strong>É a capacidade da água de conduzir eletricidade. Indica minerais dissolvidos ou clorídeos na água. Minerais dissolvidos podem comprometer a utilização da água para uso doméstico."
 msgstr ""
 
-#: public/views/pages/equipments.html:1
 #: public/views/pages/mae-dagua.html:1
 msgid "<strong>Fonte de energia: </strong>energia elétrica bivolt ou bateria recarregável ligada a painel solar."
 msgstr ""
 
-#: public/views/pages/equipments.html:1
 #: public/views/pages/mae-dagua.html:1
 msgid "<strong>Instalação: </strong>A instalação é simples, não requer conhecimentos específicos."
 msgstr ""
 
-#: public/views/pages/equipments.html:1
 #: public/views/pages/mae-dagua.html:1
 msgid "<strong>Manutenção: </strong>As ponteiras dos sensores devem ser limpas periodicamente para evitar acúmulo de resíduos que podem afetar as leituras."
 msgstr ""
 
-#: public/views/pages/equipments.html:1
 #: public/views/pages/mae-dagua.html:1
 msgid "<strong>Monitoramento em tempo real: </strong>A coleta de dados é feita automaticamente a cada hora, e as leituras são enviadas via rede 2G para o servidor do site rede.infoamazonia.org."
 msgstr ""
 
-#: public/views/pages/equipments.html:1
 #: public/views/pages/mae-dagua.html:1
 msgid "<strong>Módulo 1 (M1): </strong>composto por um Arduino Mega, responsável por todo o processamento das informações capturadas pelos sensores e pela alimentação de energia do conjunto (conectado a uma fonte externa)."
 msgstr ""
 
-#: public/views/pages/equipments.html:1
 #: public/views/pages/mae-dagua.html:1
 msgid "<strong>Módulo 2 (M2): </strong>um shield para Arduino que possui o sensor de pressão barométrica e conectores para acoplamento dos sensores de pH, ORP, condutividade e temperatura da água. Desta forma modular, é possível selecionar os sensores a serem utilizados visando o custo benefício da aplicação específica desejada."
 msgstr ""
 
-#: public/views/pages/equipments.html:1
 #: public/views/pages/mae-dagua.html:1
 msgid "<strong>Módulo 3 (M3): </strong>responsável pela comunicação via rede de telefonia celular, capaz de transmitir os dados por SMS para um servidor do Rede InfoAmazonia. Como estratégia auxiliar de acesso aos dados, o M2 também possui espaço para cartão de memória SD."
 msgstr ""
 
-#: public/views/pages/equipments.html:1
 #: public/views/pages/mae-dagua.html:1
 msgid "<strong>Parâmetros monitorados: </strong>pH, temperatura, condutividade elétrica, potencial de redução da oxidação (ORP) e pressão barométrica no nível da água."
 msgstr ""
 
-#: public/views/pages/equipments.html:1
 #: public/views/pages/mae-dagua.html:1
 msgid "<strong>Potencial de redução da oxidação (ORP): </strong>O potencial de redução da oxidação ajuda a indicar a presença de micro-organismos na água."
 msgstr ""
 
-#: public/views/pages/equipments.html:1
 #: public/views/pages/mae-dagua.html:1
 msgid "<strong>Potencial hidrogeniônico (pH): </strong>O pH normal deve variar entre 6 e 9, este índice pode ser alterado por conta da poluição."
 msgstr ""
 
-#: public/views/pages/equipments.html:1
 #: public/views/pages/mae-dagua.html:1
 msgid "<strong>Temperatura: </strong>A temperatura é um elemento que influencia características físicas e químicas da água, como sua densidade e capacidade de reter oxigênio dissolvido."
 msgstr ""
@@ -200,6 +186,10 @@ msgstr ""
 
 #: public/views/pages/network.html:1
 msgid "A escolha dos pontos que compõem a rede teve como critérios eliminatórios o engajamento de lideranças locais no monitoramento participativo e conexão 2G no local do reservatório onde é feito o monitoramento. Os voluntários foram selecionados durante das atividades de formação."
+msgstr ""
+
+#: public/views/pages/about.html:1
+msgid "A implementação da rede de 18 sensores pilotos aconteceu na Amazônia Brasileira em outubro de 2015, com o apoio e participação da <a href=\"http://www.saudeealegria.org.br/\" rel=\"external\" target=\"_blank\">ONG Saúde e Alegria</a>, que atua em unidades de conservação e comunidades ao longo do rio Tapajós. O projeto também contou com o apoio do Laboratório Mídias Eletrônicas da UFOPA e das Secretarias de Meio Ambiente dos municípios de Santarém e Belterra."
 msgstr ""
 
 #: public/views/pages/network.html:1
@@ -230,28 +220,24 @@ msgstr ""
 msgid "Ainda não tenho uma conta"
 msgstr ""
 
-#: public/views/pages/equipments.html:1
 #: public/views/pages/mae-dagua.html:1
 msgid "Alguns conceitos:"
 msgstr ""
 
-#: public/views/index.html:1
-msgid "Ar"
-msgstr ""
-
-#: public/views/pages/equipments.html:1
 #: public/views/pages/mae-dagua.html:1
 msgid "Arduíno Mega: Placa com microcontrolador utilizada para controlar o sistema."
 msgstr ""
 
-#: public/views/pages/equipments.html:1
 #: public/views/pages/mae-dagua.html:1
 msgid "As leituras das variáveis são enviadas para um servidor remoto de hora em hora. Além da informação disponível do site, os interessados podem se cadastrar para receber alertas SMS sobre qualidade da água em sua comunidade."
 msgstr ""
 
-#: public/views/pages/equipments.html:1
 #: public/views/pages/mae-dagua.html:1
 msgid "Aspectos técnicos"
+msgstr ""
+
+#: public/views/index.html:1
+msgid "Aspectos ténicos"
 msgstr ""
 
 #: public/views/admin/users-edit.html:1
@@ -266,6 +252,7 @@ msgstr ""
 msgid "Assine as atualizações do sensor"
 msgstr ""
 
+#: public/views/index.html:1
 #: public/views/pages/network.html:1
 msgid "Atividades de formação"
 msgstr ""
@@ -300,7 +287,6 @@ msgstr ""
 msgid "Cabe ressaltar, também, a importância da avaliação de outros parâmetros importantes da qualidade da água para consumo humano, tais como Oxigênio Dissolvido, Coliformes termotolerantes e análise microbiológica da água, com relação à presença de parasitas, vírus, e bactérias."
 msgstr ""
 
-#: public/views/pages/equipments.html:1
 #: public/views/pages/mae-dagua.html:1
 msgid "Cabe ressaltar, também, a importância da avaliação de outros parâmetros importantes da qualidade da água para consumo humano, tais como oxigênio dissolvido, coliformes termotolerantes e análise microbiológica da água, com relação à presença de parasitas, vírus e bactérias."
 msgstr ""
@@ -335,6 +321,10 @@ msgstr ""
 
 #: public/views/sensor.html:1
 msgid "Comunidade deste sensor"
+msgstr ""
+
+#: public/views/index.html:1
+msgid "Condutividade"
 msgstr ""
 
 #: public/views/pages/monitoring.html:1
@@ -382,22 +372,17 @@ msgstr ""
 msgid "Descrição (comunidade)"
 msgstr ""
 
-#: public/views/pages/equipments.html:1
+#: public/views/index.html:1
 #: public/views/pages/mae-dagua.html:1
 msgid "Desenvolvimento"
 msgstr ""
 
-#: public/views/pages/equipments.html:1
 #: public/views/pages/mae-dagua.html:1
 msgid "Devido ao caráter de medição em tempo real, os resultados são considerados provisórios e não conclusivos, e são sujeitos a equívocos e incertezas. Os dados podem conter valores inexatos devido a mal funcionamento do equipamento. Eventualmente os equipamentos serão desconectados para manutenção."
 msgstr ""
 
 #: public/views/sensor/report.html:1
 msgid "Devido ao caráter de medição em tempo real, os resultados são considerados provisórios e não conclusivos, são sujeitos a equívocos e incertezas. Os dados podem conter valores inexatos devido a mal funcionamento do equipamento. Eventualmente os equipamentos serão desconectados para manutenção."
-msgstr ""
-
-#: public/views/index.html:1
-msgid "DustDuino"
 msgstr ""
 
 #: public/views/admin/sensors.html:1
@@ -473,10 +458,6 @@ msgstr ""
 msgid "Envie uma mensagem para todos os assinantes"
 msgstr ""
 
-#: public/views/index.html:1
-msgid "Equipamento"
-msgstr ""
-
 #: public/views/home.html:1
 msgid "Equipamentos capazes de monitorar parâmetros físico-químicos que ajudam a indicar se a água está contaminada"
 msgstr ""
@@ -485,7 +466,10 @@ msgstr ""
 msgid "Eu já tenho uma conta"
 msgstr ""
 
-#: public/views/pages/equipments.html:1
+#: public/views/index.html:1
+msgid "FAQ"
+msgstr ""
+
 #: public/views/pages/mae-dagua.html:1
 msgid "Firmware: Em eletrônica e computação, o firmware é o conjunto de instruções operacionais programadas diretamente no hardware de equipamentos eletrônicos."
 msgstr ""
@@ -496,6 +480,10 @@ msgstr ""
 
 #: public/views/pages/network.html:1
 msgid "Formação da Rede"
+msgstr ""
+
+#: public/views/index.html:1
+msgid "Formação da rede"
 msgstr ""
 
 #: public/views/admin/users-edit.html:1
@@ -511,7 +499,6 @@ msgstr ""
 msgid "Gerar relatório"
 msgstr ""
 
-#: public/views/pages/equipments.html:1
 #: public/views/pages/mae-dagua.html:1
 msgid "Hardware aberto: Parte eletrônica desenvolvida com documentação e arquivos abertos para que qualquer pessoa interessada possa conhecer e replicar. Não existe restrição autoral, intelectual ou industrial que impeça alguém de conhecer 100% de como o hardware é construído e operado."
 msgstr ""
@@ -528,6 +515,7 @@ msgstr ""
 msgid "Identificador"
 msgstr ""
 
+#: public/views/index.html:1
 #: public/views/pages/press.html:1
 msgid "Imprensa"
 msgstr ""
@@ -552,7 +540,7 @@ msgstr ""
 msgid "Latitude: {{sensor.geometry.coordinates[1]}}"
 msgstr ""
 
-#: public/views/pages/equipments.html:1
+#: public/views/index.html:1
 #: public/views/pages/mae-dagua.html:1
 msgid "Limitações"
 msgstr ""
@@ -605,7 +593,7 @@ msgstr ""
 msgid "Máxima"
 msgstr ""
 
-#: public/views/pages/equipments.html:1
+#: public/views/index.html:1
 #: public/views/pages/mae-dagua.html:1
 msgid "Mãe D'Água"
 msgstr ""
@@ -657,7 +645,6 @@ msgstr ""
 msgid "O Mãe d'Água está sendo testado pelo projeto Rede InfoAmazonia. Nesse momento, não há intenção do projeto de comercializar o equipamento. É hardware livre, e os arquivos necessários para produção estão disponíveis em:"
 msgstr ""
 
-#: public/views/pages/equipments.html:1
 #: public/views/pages/mae-dagua.html:1
 msgid "O Mãe d´Água foi produzido utilizando tecnologias livres. As informações necessárias para produção estão disponíveis em:"
 msgstr ""
@@ -666,7 +653,6 @@ msgstr ""
 msgid "O Mãe d´Água possui funcionalidades de medição de acidez da água pelo potencial hidrogeniônico (pH), potencial de redução da oxidação (ORP), condutividade elétrica, temperatura da água e pressão barométrica no nível da água, variáveis que auxiliam na inferência da qualidade da água para consumo humano."
 msgstr ""
 
-#: public/views/pages/equipments.html:1
 #: public/views/pages/mae-dagua.html:1
 msgid "O Mãe d´Água é capaz de monitorar parâmetros físico-químicos importantes que ajudam a indicar se a água é potável ou está contaminada. O dispositivo faz leituras das seguintes variáveis: acidez (pH), <a href=\"https://pt.wikipedia.org/wiki/Potencial_de_redu%C3%A7%C3%A3o\" rel=\"external\" target=\"_blank\">potencial de redução da oxidação (ORP)</a>, condutividade elétrica, temperatura e pressão barométrica no nível da água. Essas medições permitem detectar variações que indicam contaminação."
 msgstr ""
@@ -675,9 +661,16 @@ msgstr ""
 msgid "O controle da qualidade da água para consumo humano é fundamental para a garantia da saúde. O monitoramento da qualidade da água deve ser feito regularmente pelo responsável pelo sistema de abastecimento de água, destinado a verificar se a água fornecida à população é potável. Medidas preventivas simples como desinfectar a água com cloro podem evitar ou eliminar organismos patogênicos transmitidos pela água."
 msgstr ""
 
-#: public/views/pages/equipments.html:1
+#: public/views/pages/about.html:1
+msgid "O desenvolvimento dos sensores foi realizado em parceria com a start-up <a href=\"http://devtecnologia.com.br\" rel=\"external\" target=\"_blank\">Dev Tecnologia</a>, empresa incubada na Universidade de São Paulo, e com ajuda da rede internacional de ciência cidadã <a href=\"https://publiclab.org/\" rel=\"external\" target=\"_blank\">Public Lab</a>."
+msgstr ""
+
 #: public/views/pages/mae-dagua.html:1
 msgid "O hardware foi projetado em plataforma (Eagle) e licenças abertas, de forma modular:"
+msgstr ""
+
+#: public/views/pages/about.html:1
+msgid "O hardware, chamado \"Mãe d'Água\", pode ser instalado em caixas d´água, cisternas e águas superficiais de mananciais menores, e com ele é possível detectar possíveis alterações de características da água provenientes de despejo inadequado de resíduos domésticos, industriais e metais pesados. Os resultados das análises ajudam a distinguir a água potável de água contaminada."
 msgstr ""
 
 #: public/views/sensor/report.html:1
@@ -696,15 +689,19 @@ msgstr ""
 msgid "O projeto Rede InfoAmazonia desenvolveu um hardware aberto de monitoramento de qualidade da água em tempo real, o \"Mãe d'Água\". O objetivo projeto é detectar possíveis alterações provenientes de despejo inadequado de resíduos domésticos, industriais e metais pesados em caixas d´água, cisternas e águas superficiais de mananciais menores na região amazônica. Os resultados ajudam a distinguir a água potável de água contaminada."
 msgstr ""
 
-#: public/views/pages/equipments.html:1
 #: public/views/pages/mae-dagua.html:1
 msgid "O projeto Rede InfoAmazonia desenvolveu um hardware livre de monitoramento de qualidade da água em tempo real, que foi batizado como “Mãe d'Água\". Inspirado no <a href=\"http://publiclab.org/wiki/riffle\" rel=\"external\" target=\"_blank\">Riffle</a>, o dispositivo é resultado da colaboração da equipe do projeto com a rede norte-americana de ciência cidadã <a href=\"http://publiclab.org/\" rel=\"external\" target=\"_blank\">Public Lab </a>e a start-up <a href=\"http://devtecnologia.com.br/sobre/quem-somos/\" rel=\"external\" target=\"_blank\">Dev Tecnologia</a>, empresa incubada na Universidade de São Paulo."
 msgstr ""
 
 #: public/views/pages/about.html:1
-msgid "O projeto foi desenvolvido em uma residência no Red Bull Basement (São Paulo), quando foram instalados equipamentos na Ocupação do Ouvidor e no Red Bull Station. A intenção é comparar as leituras realizadas nos dois locais."
+msgid "O projeto Rede InfoAmazonia desenvolveu um sistema de monitoramento de baixo custo para analisar a qualidade da água para consumo humano, e estabeleceu uma rede de monitoramento em articulação com comunidades da Amazônia brasileira, para apresentar em tempo real os resultados das análises na plataforma InfoAmazonia e enviar alertas aos consumidores através de SMS."
 msgstr ""
 
+#: public/views/pages/about.html:1
+msgid "O projeto foi um dos premiados do <a href=\"https://desafiosocial.withgoogle.com/brazil2014\" rel=\"external\" target=\"_blank\">Desafio de Impacto Social do Google em 2014</a>, junto a outras 9 ideias apresentadas por ONGs de todo o Brasil."
+msgstr ""
+
+#: public/views/index.html:1
 #: public/views/pages/monitoring.html:1
 msgid "ORP"
 msgstr ""
@@ -725,15 +722,10 @@ msgstr ""
 msgid "Olá! O Projeto Rede InfoAmazonia em fase final de desenvolvimento. Os sensores dos Mãe d'Água estão em fase de ajustes (as leituras ainda não devem ser consideradas válidas) e o conteúdo está em revisão final para publicação. Sugestões e comentários sobre o site são bem vindos. Entre em contato através do email rede@infoamazonia.org."
 msgstr ""
 
-#: public/views/pages/about.html:1
-msgid "Os dados coletados são apresentados na forma de gráficos históricos no site do projeto."
-msgstr ""
-
 #: public/views/pages/network.html:1
 msgid "Os microssistemas coletivos captam água diretamente dos lençóis freáticos através de poços profundos. Entre os pontos de monitoramento selecionados, apenas o sensor Zona Urbana de Belterra analisa a água em seu ponto final de distribuição. Em todos os outros a análise é feita no ponto de captação."
 msgstr ""
 
-#: public/views/pages/equipments.html:1
 #: public/views/pages/mae-dagua.html:1
 msgid "Os resultados são acessíveis através deste site e alertam sobre possível contaminação."
 msgstr ""
@@ -746,12 +738,7 @@ msgstr ""
 msgid "Para entender melhor as descrições abaixo, é importante entender que um íon é qualquer átomo ou grupo de átomos que tem carga positiva ou negativa. Íons são formados pela adição ou remoção de elétrons a, ou remoção de elétrons de, átomos ou moléculas ou outros íons; pela combinação de íons com outras partículas; ou pela ruptura de um vínculo covalente entre 2 átomos de modo que ambos os elétrons do vínculo são deixados em associação a um dos átomos da reação."
 msgstr ""
 
-#: public/views/pages/about.html:1
-msgid "Para monitoramento da água é usado o Mãe d'Água, que coleta dados sobre condutividade elétrica, pH, ORP e temperatura da água, além da pressão barométrica e temperatura do equipamento."
-msgstr ""
-
 #: public/views/index.html:1
-#: public/views/pages/equipments.html:1
 #: public/views/pages/mae-dagua.html:1
 msgid "Parâmetros monitorados"
 msgstr ""
@@ -760,7 +747,6 @@ msgstr ""
 msgid "Perguntas frequentes"
 msgstr ""
 
-#: public/views/pages/equipments.html:1
 #: public/views/pages/mae-dagua.html:1
 msgid "Plataforma Eagle: software livre utilizado para gerar o circuito e desenho do hardware."
 msgstr ""
@@ -797,10 +783,11 @@ msgstr ""
 msgid "Receba atualizações deste sensor"
 msgstr ""
 
-#: public/views/pages/about.html:1
-msgid "Rede Código Urbano é uma iniciativa de monitoramento ambiental em tempo-real que utiliza equipamentos para realizar a leitura de parâmetros que ajudam a indicar a qualidade da água e do ar, bem como um site onde os dados são armazenados e apresentados."
+#: public/views/index.html:1
+msgid "Rede"
 msgstr ""
 
+#: public/views/index.html:1
 #: public/views/pages/monitoring.html:1
 #: public/views/pages/network.html:1
 msgid "Rede de monitoramento"
@@ -891,7 +878,6 @@ msgstr ""
 msgid "Seu telefone"
 msgstr ""
 
-#: public/views/pages/equipments.html:1
 #: public/views/pages/mae-dagua.html:1
 msgid "Shield: É uma placaque recebe as leituras físico-químicas ambientais para análise de qualidade da água."
 msgstr ""
@@ -917,11 +903,13 @@ msgstr ""
 msgid "Telefone"
 msgstr ""
 
+#: public/views/index.html:1
 #: public/views/pages/monitoring.html:1
 #: public/views/sensor/report.html:1
 msgid "Temperatura"
 msgstr ""
 
+#: public/views/index.html:1
 #: public/views/pages/monitoring.html:4
 msgid "Temperatura do equipamento"
 msgstr ""
@@ -932,10 +920,6 @@ msgstr ""
 
 #: public/views/admin/sensors-edit.html:1
 msgid "URL da imagem"
-msgstr ""
-
-#: public/views/pages/about.html:1
-msgid "Uma versão adaptada do DustDuino é utilizada para monitoramento de material particulado de até 2,5 e de até 10 micrômetros no ar."
 msgstr ""
 
 #: public/views/pages/monitoring.html:4
@@ -1041,6 +1025,7 @@ msgstr ""
 msgid "login')\" href=\"#\" translate class=\"button bold\">Eu já tenho uma conta</a></p><p ng-show=\"form == 'login'\"><a ng-click=\"switch('register')\" href=\"#\" translate class=\"button bold\">Ainda não tenho uma conta</a></p><p ng-show=\"form == 'register'\"><input type=\"text\" placeholder=\"{{'Seu nome"
 msgstr ""
 
+#: public/views/index.html:1
 #: public/views/pages/monitoring.html:1
 msgid "pH"
 msgstr ""
@@ -1071,10 +1056,6 @@ msgstr ""
 
 #: public/views/admin/sensors-broadcast.html:1
 msgid "{{sensor.name}} Broadcast"
-msgstr ""
-
-#: public/views/index.html:1
-msgid "Água"
 msgstr ""
 
 #: public/views/admin/index.html:1

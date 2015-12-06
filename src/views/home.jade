@@ -1,0 +1,53 @@
+script(type="text/ng-template" id="intro-dialog")
+	p(translate) Olá! O Projeto Rede InfoAmazonia em fase final de desenvolvimento. Os sensores dos Mãe d'Água estão em fase de ajustes (as leituras ainda não devem ser consideradas válidas) e o conteúdo está em revisão final para publicação. Sugestões e comentários sobre o site são bem vindos. Entre em contato através do email rede@infoamazonia.org.
+	p(translate) Em breve você poderá conhecer mais sobre o projeto, acompanhar a informações sobre a qualidade da água no Oeste do Pará e se cadastrar para receber alertas sobre como está a qualidade da água em comunidades de Belterra, Mojuí dos Campos e Santarém.
+section#home.anti-row
+	#about
+		.container
+			.twelve.columns
+				.main-text
+					h2
+						strong.first(ng-mouseover="resetAbout('sensor')" ng-class="{active: aboutText == 'sensor'}" translate) Sensores ambientais
+						br
+						span(translate) conectados via 
+						strong(ng-mouseover="resetAbout('sim')" ng-class="{active: aboutText == 'sim'}" translate) redes móveis 
+						br 
+						span(translate) para gerar indicadores de 
+						strong(ng-mouseover="resetAbout('water')" ng-class="{active: aboutText == 'water'}" translate) qualidade da água e ar
+						br 
+						span(translate) em  
+						strong(ng-mouseover="resetAbout('forest')" ng-class="{active: aboutText == 'forest'}" translate) São Paulo
+				.details
+					.about-text(ng-show="aboutText == 'sensor'")
+						.image(style="background-image:url(/img/sensor.png);")
+						p(translate) Equipamentos capazes de monitorar parâmetros físico-químicos que ajudam a indicar se a água está contaminada 
+					.about-text(ng-show="aboutText == 'sim'")
+						.image(style="background-image:url(/img/sim.png)")
+						p(translate) São enviadas atualizações de hora em hora via rede 2G com as leituras dos dados para o site do Rede InfoAmazonia
+					.about-text(ng-show="aboutText == 'water'")
+						.image(style="background-image:url(/img/water.png)")
+						p(translate) São monitorados parâmetros que ajudam a indicar a presença de contaminantes químicos e biológicos, para que possamos alertar a população
+					.about-text(ng-show="aboutText == 'forest'")
+						.image(style="background-image:url(/img/forest.png)")
+						p(translate) Em sua fase piloto, a rede de sensores está sendo implementada em três cidades do Pará e uma do Amazonas
+	#sensors-map
+		.sensor-map-container(ng-controller="MapCtrl")
+			leaflet#map(center="map.center" layers="map.layers" legend="legend" markers="markers" defaults="map.options")
+		.sensor-map-info(ng-hide="sensor")
+			h2(translate) Sensores
+			ul.sensor-list
+				li.sensor-item(ng-repeat="(i, sensor) in sensors" ng-click="setSensor(sensor._id)")
+					.sensor-content
+						.clearfix
+							h3 {{sensor.name}}
+						p.community {{sensor.description}}
+		#sensor-summary(ng-show="sensor")
+			span.icon-cross.close(ng-click="setSensor(false)")
+			sensor-summary(sensor="sensor")
+			a.button.permalink(ui-sref="sensor({sensorId: sensor})") 
+				span.icon-magnifying-glass 
+				span(translate) Ver detalhes deste sensor
+			a.button.subscribe(ui-sref="sensor.subscribe({sensorId: sensor})") 
+				span.icon-rss 
+				span(translate) Assine as atualizações deste sensor
+	
