@@ -14,16 +14,16 @@ header#masthead.row
 						a(ui-sref="monitoring" translate) Monitoramento
 						ul
 							li
-								a(ui-sref="monitoring({'#': 'air'})" translate) Ar
+								a(ui-sref="monitoring({'#': 'ar'})" translate) Ar
 							li
-								a(ui-sref="monitoring({'#': 'water'})" translate) Água
+								a(ui-sref="monitoring({'#': 'agua'})" translate) Água
 					li
 						a(ui-sref="equipment" translate) Equipamento
 						ul
 							li
 								a(ui-sref="equipment({'#': 'dustduino'})" translate) DustDuino
 							li
-								a(ui-sref="equipment({'#': 'maedagua'})" translate) Parâmetros monitorados
+								a(ui-sref="equipment({'#': 'maedagua'})" translate) Mãe d'Água
 					li(ng-controller="AuthCtrl")
 						a(ui-sref="login" ng-hide="token" translate) Entrar
 						a(ui-sref="account" ng-show="token") 
