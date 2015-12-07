@@ -496,7 +496,7 @@ msgid "Envie uma mensagem para todos os assinantes"
 msgstr ""
 
 #: public/views/index.html:1
-msgid "Equipamento"
+msgid "Equipamentos"
 msgstr ""
 
 #: public/views/home.html:1
@@ -630,6 +630,10 @@ msgstr ""
 #: public/views/pages/equipments.html:1
 #: public/views/pages/mae-dagua.html:1
 msgid "Mãe D'Água"
+msgstr ""
+
+#: public/views/index.html:1
+msgid "Mãe d'Água"
 msgstr ""
 
 #: src/js/directives.js:341
@@ -773,7 +777,6 @@ msgstr ""
 msgid "Para monitoramento da água é usado o <a href=\"http://infoamazonia.blogosfera.uol.com.br/2015/07/06/rede-infoamazonia-cria-o-mae-dagua-para-monitorar-a-qualidade-dagua/\" rel=\"external\" target=\"_blank\">Mãe d'Água</a>, que coleta dados sobre condutividade elétrica, pH, ORP e temperatura da água, além da pressão barométrica e temperatura do equipamento."
 msgstr ""
 
-#: public/views/index.html:1
 #: public/views/pages/equipment.html:1
 #: public/views/pages/equipments.html:1
 #: public/views/pages/mae-dagua.html:1
