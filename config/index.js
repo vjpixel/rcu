@@ -9,7 +9,7 @@ var parameters = {
       "en": "Particulate matter 10 µm or less",
       "pt": "Material particulado até 10 µm"
     },
-    "abbreviations": ["PM 10"],
+    "abbreviations": ["PM10"],
     "defaultUnit": "µg/m3"
   },
   "PM25": {
@@ -18,7 +18,7 @@ var parameters = {
       "en": "Particulate matter 2.5 µm or less",
       "pt": "Material particulado até 2,5 µm"
     },
-    "abbreviations": ["PM 2.5"],
+    "abbreviations": ["PM25"],
     "defaultUnit": "µg/m3"
   },
   "atmospheric_pressure": {
