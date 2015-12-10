@@ -69,6 +69,7 @@ app
 					}
 				]
 			}
+		}
 		.state('about', {
 			url: '/sobre/',
 			templateUrl: '/views/pages/about.html'
