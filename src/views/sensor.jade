@@ -16,7 +16,7 @@ article#sensor
 				.eight.columns
 					.clearfix
 						nav#sensor-nav.header-nav
-							a(ui-sref="sensor({'#': 'sensor-community'})" translate) Comunidade
+							a(ui-sref="sensor({'#': 'sensor-community'})" translate) Local
 							a(ui-sref="sensor({'#': 'sensor-main'})" translate) Últimas medições
 							a(ui-sref="sensor({'#': 'sensor-charts'})" translate) Dados históricos
 							a(ui-sref="sensor({'#': 'sensor-city'})" ng-show="visaguasUrl") {{city}}
@@ -32,7 +32,7 @@ article#sensor
 			.container
 				.twelve.columns
 					img.cmm-pic(ng-src="{{sensor.image}}")
-					h2(translate) Comunidade deste sensor
+					h2(translate) Local deste sensor
 					p {{sensor.description}} 
 		section#sensor-main.anchor-section
 			.container

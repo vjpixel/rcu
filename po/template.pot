@@ -197,14 +197,6 @@ msgstr ""
 msgid "Cancelar assinatura deste sensor"
 msgstr ""
 
-#: public/views/sensor.html:1
-msgid "Comunidade"
-msgstr ""
-
-#: public/views/sensor.html:1
-msgid "Comunidade deste sensor"
-msgstr ""
-
 #: public/views/pages/monitoring.html:1
 msgid "Condutividade é uma maneira indireta de medir concentração de poluentes, e mudanças em seu nível indica mudanças na composição da água.<sup>[3]</sup> Água entre 0 - 2500 μS/cm pode ser consumida por humanos, apesar de que estes preferem água na primeira metade dessa variação se estiver disponível. <sup>[4]</sup>"
 msgstr ""
@@ -239,7 +231,7 @@ msgid "Data de início"
 msgstr ""
 
 #: public/views/admin/sensors-edit.html:1
-msgid "Descrição (comunidade)"
+msgid "Descrição (locale)"
 msgstr ""
 
 #: public/views/pages/equipment.html:1
@@ -367,6 +359,14 @@ msgstr ""
 
 #: public/views/sensor/report.html:1
 msgid "Latitude: {{sensor.geometry.coordinates[1]}}"
+msgstr ""
+
+#: public/views/sensor.html:1
+msgid "Local"
+msgstr ""
+
+#: public/views/sensor.html:1
+msgid "Local deste sensor"
 msgstr ""
 
 #: public/views/sensor/report.html:1
