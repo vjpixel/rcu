@@ -69,11 +69,7 @@ app
 					}
 				]
 			}
-<<<<<<< HEAD
 		})
-=======
-		}
->>>>>>> 3fd327b91d21414f40613266151f96ec97d42ae2
 		.state('about', {
 			url: '/sobre/',
 			templateUrl: '/views/pages/about.html'
