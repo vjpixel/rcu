@@ -239,7 +239,7 @@ msgid "Data de início"
 msgstr ""
 
 #: public/views/admin/sensors-edit.html:1
-msgid "Descrição (comunidade)"
+msgid "Descrição (locale)"
 msgstr ""
 
 #: public/views/pages/equipment.html:1
