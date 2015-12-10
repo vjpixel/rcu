@@ -56,6 +56,7 @@ app
 		});
 		$locationProvider.hashPrefix('!');
 
+		/* will be reverted in the future
 		$stateProvider
 		.state('home', {
 			url: '/',
@@ -66,6 +67,35 @@ app
 					'RedeService',
 					function(Rede) {
 						return Rede.sensors.query().$promise;
+					}
+				]
+			}
+		})*/
+		$stateProvider
+		.state('home', {
+			url: '/sensors/563bfd23c4c383b51361762b/',
+			controller: 'SensorCtrl',
+			templateUrl: '/views/sensor.html',
+			resolve: {
+				SensorData: [
+					'RedeService',
+					'$stateParams',
+					function(Rede, $stateParams) {
+						return Rede.sensors.get({id: $stateParams.sensorId}).$promise;
+					}
+				],
+				ParametersData: [
+					'RedeService',
+					function(Rede) {
+						return Rede.getParameters();
+					}
+				],
+				AddressData: [
+					'RedeService',
+					'SensorData',
+					function(Rede, Sensor) {
+						var coords = Sensor.geometry.coordinates
+						return Rede.geocode(coords[1], coords[0]);
 					}
 				]
 			}
